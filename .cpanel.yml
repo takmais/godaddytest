@@ -1,0 +1,7 @@
+---
+deployment:
+        tasks:
+                - export DEPLOYPATH=/home/t6metjfcmcs0/public_html/
+                - /bin/cp -R img $DEPLOYPATH
+                - /bin/cp home.html $DEPLOYPATH
+                - /bin/cp main.css $DEPLOYPATH
